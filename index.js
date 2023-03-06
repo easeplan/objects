@@ -55,7 +55,7 @@ console.log(obj2);
 // 4b. Spread syntax (...)
 const obj3 = { a: 1, b: 2 };
 const obj4 = { ...obj3 };
-console.log(obj3);
+console.log(obj3); // console.log(obj4)
 
 // 4c. JSON.parse() and JSON.stringify()
 const obj5 = { a: 1, b: 2 };
